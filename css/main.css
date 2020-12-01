@@ -1,7 +1,7 @@
-@import 'index.css';
-@import 'transition.css';
-@import 'about.css';
-@import 'projects.css';
+@import "index.css";
+@import "transition.css";
+@import "about.css";
+@import "projects.css";
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@
 
 a {
   text-decoration: none;
-  color: rgb(61,61,61);
+  color: rgb(61, 61, 61);
 }
 
 a:hover {

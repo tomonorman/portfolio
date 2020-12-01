@@ -3,7 +3,7 @@ main {
 }
 
 #logo {
-  color: rgb(61,61,61);
+  color: rgb(61, 61, 61);
 }
 
 .landing {
@@ -41,7 +41,7 @@ nav {
 .big-text {
   font-size: 5rem;
   font-family: "Lobster", cursive;
-  color: rgb(61,61,61);
+  color: rgb(61, 61, 61);
 }
 
 /* .hero-link {
@@ -69,7 +69,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  transform: translateY(100%)
+  transform: translateY(100%);
 }
 
 .intro-text {
