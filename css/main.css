@@ -1,6 +1,7 @@
 @import 'index.css';
 @import 'transition.css';
 @import 'about.css';
+@import 'projects.css';
 
 * {
   margin: 0;
