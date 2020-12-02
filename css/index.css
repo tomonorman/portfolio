@@ -1,5 +1,5 @@
 main {
-  font-family: "Heebo", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 #logo {
@@ -40,7 +40,7 @@ nav {
 
 .big-text {
   font-size: 5rem;
-  font-family: "Lobster", cursive;
+  font-family: 'Caveat', cursive;
   color: rgb(61, 61, 61);
 }
 
@@ -74,7 +74,7 @@ nav {
 
 .intro-text {
   color: rgb(233, 233, 233);
-  font-family: "Heebo", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 3rem;
 }
 
