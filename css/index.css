@@ -99,3 +99,8 @@ nav {
   transform: translateY(100%);
   display: inline-block;
 }
+
+.social-media {
+  font-size: 36px;
+  text-align: right;
+}
