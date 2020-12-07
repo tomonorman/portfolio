@@ -10,7 +10,7 @@ main {
   width: 100%;
   min-height: 100vh;
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-  padding: 0rem 5rem;
+  padding: 0rem 0.5rem;
   position: absolute;
 }
 
@@ -27,20 +27,20 @@ nav {
 }
 
 .nav-links li {
-  padding-left: 8rem;
+  padding-left: 0.5rem;
   font-size: 1.2rem;
 }
 
 .avatar {
-  height: 400px;
-  width: 400px;
+  height: 280px;
+  width: 280px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
   position: absolute;
   top: 30%;
   left: 50%;
-  transform: translate(20%, -16%);
+  transform: translate(-50%, -40%);
   box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
 }
 
@@ -48,11 +48,13 @@ nav {
   position: absolute;
   top: 30%;
   left: 50%;
-  transform: translate(-104%, 30%);
+  transform: translate(-50%, 108%);
+  width: 80%;
+  text-align: center;
 }
 
 .big-text {
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: 'Caveat', cursive;
   color: rgb(61, 61, 61);
 }
@@ -96,6 +98,69 @@ nav {
 }
 
 .social-media {
-  font-size: 36px;
-  text-align: right;
+  font-size: 32px;
 }
+
+@media (min-width: 500px) {
+  .landing {
+    padding: 0rem 1rem;
+  }
+  .nav-links li {
+    padding-left: 3rem;
+  }
+  .avatar {
+    transform: translate(-50%, -40%);
+  }
+  .hero {
+    transform: translate(-50%, 120%);
+    width: 320px;
+  }
+}
+
+@media (min-width: 768px) {
+  .landing {
+    padding: 0rem 2rem;
+  }
+  .nav-links li {
+    padding-left: 6rem;
+  }
+  .avatar {
+    height: 320px;
+    width: 320px;
+    transform: translate(8%, -16%);
+  }
+  .hero {
+    transform: translate(-104%, 30%);
+    width: 320px;
+    text-align: left;
+  }
+  .big-text {
+    font-size: 4rem;
+  }
+  .social-media {
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .landing {
+    padding: 0rem 5rem;
+  }
+  .nav-links li {
+    padding-left: 8rem;
+  }
+  .avatar {
+    height: 400px;
+    width: 400px;
+    transform: translate(20%, -16%);
+  }
+  .big-text {
+    font-size: 5rem;
+  }
+  .hero {
+    transform: translate(-104%, 30%);
+    width: 400px;
+  }
+}
+
+

@@ -3,6 +3,7 @@
 @import "about.css";
 @import "projects.css";
 @import "icons.css";
+@import "slide.css";
 
 * {
   margin: 0;
