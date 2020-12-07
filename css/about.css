@@ -5,3 +5,20 @@
   padding: 0rem 5rem;
   position: absolute;
 }
+
+.avatar-sm {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 88%;
+  /* position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(20%, -16%); */
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+.card-height {
+  min-height: 90vh;
+}
