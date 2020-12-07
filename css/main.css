@@ -2,6 +2,7 @@
 @import "transition.css";
 @import "about.css";
 @import "projects.css";
+@import "icons.css";
 
 * {
   margin: 0;
