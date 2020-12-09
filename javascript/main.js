@@ -8,3 +8,4 @@ tl.fromTo("nav", { opacity: 0 }, { opacity: 1, duration: 1 });
 tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 tl.fromTo(".avatar", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 tl.fromTo(".social-media", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+tl.fromTo(".index-btn", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
