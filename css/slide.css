@@ -178,6 +178,7 @@
     -webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715)
       both;
     animation: shadow-pop-tl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+    animation-delay: 0.5s;
   }
   .mobile-center {
     text-align: left;
