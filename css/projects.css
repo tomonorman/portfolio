@@ -11,20 +11,72 @@
   font-size: 40px;
 }
 
+.img-container img {
+  cursor: pointer;
+}
+
+.portfolio-modal {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.25s ease-out;
+  overflow: auto;
+}
+
+.portfolio-modal.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.portfolio-modal p {
+  color: white;
+  font-size: 16px;
+}
+
+.portfolio-modal h3 {
+  color: white;
+}
+
+.full-img {
+  transform: scale(0.5);
+}
+
+.full-img.open {
+  transform: scale(1);
+  transition: all 0.25s ease-out;
+}
+
+.dev-size {
+  font-size: 32px;
+}
+
+.project-link a {
+  color: white;
+}
+
+.project-link a:hover {
+  color: white;
+}
+
 @media (min-width: 576px) {
-  .landing {
+  .projects {
     padding: 0rem 1rem;
   }
 }
 
 @media (min-width: 768px) {
-  .landing {
+  .projects {
     padding: 0rem 2rem;
   }
 }
 
 @media (min-width: 992px) {
-  .landing {
+  .projects {
     padding: 0rem 5rem;
   }
 }
