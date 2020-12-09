@@ -1,13 +1,13 @@
 .shadow-pop-br {
   -webkit-animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
   animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
-  animation-delay: 0.5s;
+  animation-delay: 0.6s;
 }
 
 .shadow-pop-tl {
   -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
   animation: shadow-pop-tr 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
-  animation-delay: 0.5s;
+  animation-delay: 0.6s;
 }
 
 .mobile-center {
@@ -178,7 +178,7 @@
     -webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715)
       both;
     animation: shadow-pop-tl 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
-    animation-delay: 0.5s;
+    animation-delay: 0.6s;
   }
   .mobile-center {
     text-align: left;
