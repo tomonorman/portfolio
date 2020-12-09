@@ -6,6 +6,11 @@
   position: absolute;
 }
 
+.projects h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+}
+
 @media (min-width: 576px) {
   .landing {
     padding: 0rem 1rem;
